@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&family=Oswald&display=swap');
 
-.hompage-index{
+.homepage{
     margin:0;
-    background-image: url(homepage-photo.png);
-    background-size: 100vw 100vh;
+    background:url(photo1.png);
+    background-size:100vw 100vh;
 }
 
 .bimage{
@@ -47,8 +47,8 @@ main span{
     line-height: 7vw;
     text-align: center;
     position: relative;
-    left:29.5vw;
-    top:17vh;
+    left:29vw;
+    top:16vh;
 }
 
 .item2{
