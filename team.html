@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>LosAngeles Mountains:Team</title>
+</head>
+<body class="team-page">
+    <header class="climb">
+                 <span class="item">
+                     02
+                 </span>
+                 <div class="item5">
+                     <h1>CLIMB</h1>
+                     <div class="dot"></div>
+                 </div>
+                 <span style="margin-left: 2vw;align-self:center;">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </span>
+    </header>
+    <div class="sub-heading">
+        <a href="./team.html" class="mtn-link" id="mtn1">MOUNTAIN 1</a>
+        <a href="./team.html" class="mtn-link" id="mtn2">MOUNTAIN 2</a>
+    </div>
+    <main>
+        <table id="data1">
+            <thead>
+                <tr>
+                    <th class="ftext">
+                        SCHEDULED
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>25 Nov 2016 </td>
+                    <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                    <td>28 Nov 2016 </td>
+                    <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                    <td>18 Dec 2016 </td>
+                    <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                    <td>07 Jan 2017 </td>
+                    <td>Lorem ipsum</td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="data2">
+            <thead>
+                <tr>
+                    <th class="ftext">
+                        SCHEDULED
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>25 Jan 2017 </td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>28 Feb 2017 </td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>10 Mar 2017 </td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>17 Mar 2017 </td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+            </tbody>
+        </table>
+    <div id="picture"></div>
+</main>
+    <footer class="footer">
+        <div class="first">
+            <img src="Logo - Copy.png" class="logo shade">
+            <p class="ftext">
+                <span>LOSANGELES</span> 
+                <span>MOUNTAINS</span>
+            </p>
+        </div>
+        <div>
+            COPYRIGHT 2016. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+    <script>
+        let mtn1 = document.getElementById('mtn1');
+        let mtn2 = document.getElementById('mtn2');
+
+        mtn1.addEventListener('click',(e)=>{
+            e.preventDefault();
+            document.getElementById('data1').style.display = 'block';
+            document.getElementById('data2').style.display = 'none';
+        })
+
+        mtn2.addEventListener('click',(e)=>{
+            e.preventDefault();
+            document.getElementById('data1').style.display = 'none';
+            document.getElementById('data2').style.display = 'block';
+        })
+    </script>
+</body>
+</html>
